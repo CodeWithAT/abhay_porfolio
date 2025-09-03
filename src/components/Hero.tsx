@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Download, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import Scene3D from './3DScene';
+import Safe3DScene from './Safe3DScene';
 import heroBackground from '@/assets/hero-bg.jpg';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
@@ -56,7 +56,7 @@ export default function Hero() {
       </div>
 
       {/* 3D Scene Overlay */}
-      <Scene3D />
+      <Safe3DScene />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
