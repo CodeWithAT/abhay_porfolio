@@ -9,25 +9,25 @@ const skillCategories = [
       { name: 'JavaScript (ES6+)', level: 88, color: 'hsl(189 94% 43%)' },
       { name: 'HTML5', level: 95, color: 'hsl(259 94% 51%)' },
       { name: 'CSS3', level: 90, color: 'hsl(217 91% 60%)' },
-      { name: 'Tailwind CSS', level: 85, color: 'hsl(189 94% 43%)' }
+      { name: 'Responsive Design', level: 85, color: 'hsl(189 94% 43%)' }
     ]
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Java', level: 85, color: 'hsl(259 94% 51%)' },
-      { name: 'Node.js', level: 80, color: 'hsl(217 91% 60%)' },
-      { name: 'MySQL', level: 78, color: 'hsl(189 94% 43%)' },
-      { name: 'REST APIs', level: 82, color: 'hsl(259 94% 51%)' }
+      { name: 'Java', level: 90, color: 'hsl(259 94% 51%)' },
+      { name: 'MySQL', level: 85, color: 'hsl(217 91% 60%)' },
+      { name: 'Data Structures & Algorithms', level: 80, color: 'hsl(189 94% 43%)' },
+      { name: 'Object-Oriented Programming', level: 88, color: 'hsl(259 94% 51%)' }
     ]
   },
   {
     title: 'Tools & Others',
     skills: [
-      { name: 'Git & GitHub', level: 90, color: 'hsl(217 91% 60%)' },
-      { name: 'VS Code', level: 95, color: 'hsl(189 94% 43%)' },
-      { name: 'DSA', level: 80, color: 'hsl(259 94% 51%)' },
-      { name: 'Problem Solving', level: 88, color: 'hsl(217 91% 60%)' }
+      { name: 'Git & GitHub', level: 85, color: 'hsl(217 91% 60%)' },
+      { name: 'VS Code', level: 90, color: 'hsl(189 94% 43%)' },
+      { name: 'Problem Solving', level: 85, color: 'hsl(259 94% 51%)' },
+      { name: 'Analytical Thinking', level: 88, color: 'hsl(217 91% 60%)' }
     ]
   }
 ];
@@ -128,9 +128,9 @@ export default function Skills() {
           <h3 className="text-2xl font-bold mb-8">Technologies I Work With</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              'React.js', 'JavaScript', 'Java', 'HTML5', 'CSS3', 'Node.js', 
-              'MySQL', 'Git', 'GitHub', 'VS Code', 'Tailwind CSS', 
-              'REST APIs', 'OOP', 'DSA', 'Problem Solving'
+              'React.js', 'JavaScript (ES6+)', 'Java', 'HTML5', 'CSS3', 'MySQL', 
+              'Git', 'GitHub', 'VS Code', 'Data Structures & Algorithms', 
+              'Object-Oriented Programming', 'Problem Solving', 'Analytical Thinking'
             ].map((tech, index) => (
               <motion.span
                 key={tech}

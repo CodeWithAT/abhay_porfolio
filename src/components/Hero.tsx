@@ -7,11 +7,11 @@ import heroBackground from '@/assets/hero-bg.jpg';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
 const typewriterTexts = [
+  'Software Developer',
   'Full Stack Developer',
-  'React.js Specialist', 
+  'React.js Developer', 
   'Java Developer',
-  'Problem Solver',
-  'UI/UX Enthusiast'
+  'Frontend Specialist'
 ];
 
 export default function Hero() {
@@ -121,9 +121,9 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
           >
-            Passionate about creating innovative solutions with modern technologies. 
-            Specialized in React.js, Java, and full-stack development with 2+ years of experience 
-            building robust applications that make a difference.
+            Software developer with 2+ years of experience in developing and maintaining robust applications. 
+            Strong background in HTML5, CSS, JavaScript (ES6+), React.js, Java, DSA, MySQL, and 
+            Object-Oriented Programming concepts with excellent problem-solving abilities.
           </motion.p>
 
           {/* CTA Buttons */}

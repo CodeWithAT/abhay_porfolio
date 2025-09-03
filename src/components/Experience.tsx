@@ -7,32 +7,33 @@ const experiences = [
     id: 1,
     title: 'Software Developer',
     company: 'Mphasis',
-    location: 'Hyderabad, Telangana, India',
+    location: 'India',
     period: '2022 - Present',
     description: [
-      'Developed robust web applications using React.js, JavaScript, and Java',
+      'Developed and maintained robust applications using React.js, JavaScript (ES6+), and Java',
+      'Applied Object-Oriented Programming concepts for scalable software solutions',
+      'Worked with MySQL databases for efficient data management and retrieval',
+      'Implemented Data Structures & Algorithms knowledge to optimize application performance',
       'Collaborated with cross-functional teams to deliver high-quality software solutions',
-      'Implemented responsive UI components and optimized application performance',
-      'Worked on database design and integration using MySQL',
-      'Participated in code reviews and maintained clean, scalable codebases'
+      'Built responsive web interfaces using HTML5 and CSS3'
     ],
-    technologies: ['React.js', 'JavaScript', 'Java', 'HTML/CSS', 'MySQL'],
+    technologies: ['React.js', 'JavaScript (ES6+)', 'Java', 'HTML5', 'CSS3', 'MySQL', 'DSA', 'OOP'],
     current: true
   },
   {
     id: 2,
-    title: 'Freelance Developer',
-    company: 'Self-Employed',
-    location: 'Remote',
+    title: 'Junior Developer',
+    company: 'Learning & Development',
+    location: 'India',
     period: '2021 - 2022',
     description: [
-      'Created custom websites and web applications for various clients',
-      'Developed responsive front-end interfaces with modern design principles',
-      'Built backend systems and APIs for data management',
-      'Provided technical consultation and project management services',
-      'Delivered projects on time while maintaining high code quality standards'
+      'Built web applications using frontend technologies',
+      'Gained experience in HTML5, CSS3, and JavaScript fundamentals',
+      'Learned and applied Object-Oriented Programming principles',
+      'Developed problem-solving and analytical thinking skills',
+      'Built foundation in Data Structures and Algorithms'
     ],
-    technologies: ['React.js', 'Node.js', 'HTML/CSS', 'JavaScript', 'MongoDB'],
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Java', 'OOP Concepts', 'DSA'],
     current: false
   },
   {

@@ -62,17 +62,16 @@ export default function About() {
               </h3>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate Full Stack Developer with 2+ years of experience creating 
-                digital solutions that make a difference. Currently working at Mphasis, 
-                I specialize in modern web technologies and have a strong foundation in 
-                both front-end and back-end development.
+                I'm a dedicated software developer with 2+ years of experience at Mphasis, specializing in 
+                developing and maintaining robust applications. I have strong expertise in HTML5, CSS, JavaScript (ES6+), 
+                React.js, Java, Data Structures & Algorithms, MySQL, and Object-Oriented Programming concepts.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
                 My journey began with a deep dive into Data Structures and Algorithms, 
-                which laid the foundation for my problem-solving approach. I've evolved 
-                from building complex projects in college to developing enterprise-level 
-                applications that serve thousands of users.
+                which laid the foundation for my problem-solving approach. I demonstrate excellent 
+                analytical abilities and have evolved from learning programming fundamentals 
+                to developing robust enterprise applications.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
