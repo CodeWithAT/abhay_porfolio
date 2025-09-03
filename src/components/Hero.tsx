@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Download, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import Scene3D from './3DScene';
+// import Scene3D from './3DScene';
 import heroBackground from '@/assets/hero-bg.jpg';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
@@ -15,6 +15,8 @@ const typewriterTexts = [
 ];
 
 export default function Hero() {
+  console.log('Hero component is rendering');
+  
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -55,8 +57,8 @@ export default function Hero() {
         <div className="absolute inset-0 bg-background/60 backdrop-blur-[1px]" />
       </div>
 
-      {/* 3D Scene Overlay */}
-      <Scene3D />
+      {/* 3D Scene Overlay - Temporarily disabled for debugging */}
+      {/* <Scene3D /> */}
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

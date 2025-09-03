@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
+console.log('Header component loaded');
+
 const navigation = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
